@@ -1,5 +1,5 @@
 import os
-from pathlib import PathLib
+from pathlib import Path
 
 project_name = "dummy_mlops"
 
@@ -23,5 +23,13 @@ list_files = [
     f"{project_name}/pipeline/training_pipeline.py",
     f"{project_name}/pipeline/prediction_pipeline.py",
     f"{project_name}/utils/__init__.py",
-    f"{project_name}/utils/main.py",
+    f"{project_name}/utils/main_utils.py",
+    "app.py",
+    "requirements.txt",
+    "DockerFile",
+    ".deckorignore",
+    "demo.py",
+    "setup.py",
+    "config/model.yaml",
+    "config/schema.yaml"
 ]
